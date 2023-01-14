@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.phanasorn.erp.student.lib;
+package com.phanasorn.hotel.lib;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
@@ -20,7 +20,7 @@ public class HikariCPDataSource {
 
 	static {
 		HikariConfig config = new HikariConfig();
-		config.setJdbcUrl("jdbc:mysql://localhost:3306/erp-student");
+		config.setJdbcUrl("jdbc:mysql://localhost:3306/hotel_management_system");
 		config.setUsername("root");
 		config.setPassword("");
 		config.addDataSourceProperty("minimumIdle", "5");
